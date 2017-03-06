@@ -1,0 +1,17 @@
+{% block title %} Faraz Ahmed's page {% endblock %}
+
+{% block content %}
+
+<h1> Welcome to homepage! </h1>
+
+<table border=1>
+  <tbody>
+    <tr>
+    {% for info in user_dict %}
+      <td>{{ info }}</td>
+    {% endfor %}
+    </tr>
+  </tbody>
+</table>
+
+{% endblock %}
