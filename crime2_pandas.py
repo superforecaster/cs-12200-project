@@ -15,20 +15,20 @@ crime_df["Total"] = crime_df['January'] + crime_df['February'] + crime_df['March
 #+ crime_df[[january+9]] + crime_df[[january+10]] + crime_df[[january+11]]
 
 crime_df.drop(crime_df.columns[4:18], axis=1, inplace=True)
-crime_df.columns = ['Year', 'State', 'State_ID', 'Crime_type', 'Total']
+
+#crime_df.columns = ['Year', 'State', 'State_ID', 'Crime_type', 'Total']
+
+#crime_df = crime_df.groupby(by=['Year', 'State', 'State_ID', 'Crime_type'])['Total'].sum().to_frame().reset_index()
 
 
-crime_df = crime_df.groupby(by=['Year', 'State', 'State_ID', 'Crime_type'])['Total'].sum().to_frame().reset_index()
-
-
-crime_df.set_index(['Year', 'State', 'State_ID'], append=False, inplace=True)
+#crime_df.set_index(['Year', 'State', 'State_ID'], append=False, inplace=True)
 
 
 #print(crime_df)
-crime_df.pivot(index='Year', values='Total', columns='Crime_type')
+#crime_df.pivot(index='Year', values='Total', columns='Crime_type')
 
-print(crime_df)
+#print(crime_df)
 
 # Sort by Time-Series
-#crime_df_groupby_1 = crime_df.groupby(by=['Year', 'ENTIDAD'])['Total'].sum().to_frame()
-#print(crime_df_groupby_1)
+crime_df_groupby_1 = crime_df.groupby(by=['Year', 'ENTIDAD'])['Total'].sum().to_frame()
+print(crime_df_groupby_1)
