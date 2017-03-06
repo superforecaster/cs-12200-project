@@ -1,20 +1,30 @@
-*PASOS|STEPS
-1) Open CSV
-2) Copy table name in SUMMARY and TABLES
-3) Copy past variables in spanish (transpose)
-4) translate variable | give a table column name (use "_" between words)
-5) Create table in create_db.sql 
-    5.1) Use same table name than 2)
-    5.2) Use types (number integer, decimal float, string varchar) for variables
-    5.3) Use state_key state_name as foreign keys
 
 -SUMMARY
+
 Employment | employment
 Economic Activity | economic_activity
 Urbanization | urbanization
 Justice System | justice_system
+Justice System | justice_system_1
+Justice System | justice_system_2
+Justice System | justice_system_3
 Number of Cars | cars
 Number of Strikes | strikes
+Number of Children Deaths | children_deaths
+Crime | crime
+Number of Deaths Registered by Doctors | deaths_registered_doctors
+Education Services and Infrastructure | education_1
+Education Services and Infrastructure | education_2
+Education Services and Infrastructure | education_3
+Education Services and Infrastructure | education_4
+Education Services and Infrastructure | education_5
+Education Services and Infrastructure | education_6
+Enviroment | enviroment
+Health | health
+Health | health_1
+Percentage of Jungle and Forest | percentage_jungle_forest
+State Income and Expenditure | state_income_expenditure
+Total Population | total_population
 
 -TABLES
 
@@ -90,4 +100,196 @@ strikes
 -Año| year | year
 -Clave|state key| state_key
 -Nombre|state name| state_name
--Clase de vehículo | number of cars | number_cars
+-Total | number of strikes | number_strikes
+
+children_deaths
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Total | number of children deahts | children_deaths
+
+crime
+deaths_registered_doctors
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Total | number of deaths registered by doctors | deaths_registered_doctors
+
+education_1
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Población atendida| attended population | attended_population
+-Personal docente| number of teachers | number_teachers
+-Centros de Desarrollo Infantil| child development centers | child_development_centers
+
+education_2
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Alumnos existencias en educación básica y media superior de la modalidad escolarizada | students in basic education and upper secondary education (school) | students_basic_secondary   
+-Alumnos aprobados en educación básica y media superior de la modalidad escolarizada | approved students in basic education and upper secondary education (school) | approved_students_basic_secondary
+-Alumnos egresados en educación básica y media superior de la modalidad escolarizada | graduate students in basic education and upper secondary education (school) | graduate_students_basic_secondary
+-Personal docente en educación básica y media superior de la modalidad escolarizada | teachers in basic education and upper secondary education (school) | teachers_basic_secondary
+-Escuelas en educación básica y media superior de la modalidad escolarizada | schools in basic education and upper secondary education (school) | schools_basic_secondary
+
+education_3
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Población atendida | attended population in child development centers | attended_population_child_centers
+-Personal docente | teachers in child development centars | teachers_child_centers
+-Centros de Desarrollo Infantil | child development centers | child_development_centers
+-Índice de retención en primaria a/ | student retention index in primary school | retention_primary_school
+-Índice de aprovechamiento en primaria b/ | academic achievement index in primary school | academic_achievement_primary
+-Índice de retención en secundaria a/ | student retention index in middle school | retention_middle_school
+-Índice de aprovechamiento en secundaria b/ | academic achievement index in middle school | academic_achievement_middle
+-Índice de retención en bachillerato a/ | student retention index in high school | retention_high_school
+-Índice de aprovechamiento en bachillerato b/ | academic achievement in high school | academic_achievement_high
+
+education_4
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Alumnos inscritos en primaria indígena | enrolled students in indigenous primary school | enrolled_students_indigenous_school 
+-Alumnos existencias en primaria indígena | students in indigenous primary school | students_indigenous_school
+-Alumnos aprobados en primaria indígena | approved students in indigenous primary school | approved_students_indigenous_school
+-Alumnos egresados en primaria indígena | graduate students in indigenous primary school | graduate_students_indigenous_school
+-Personal docente en primaria indígenan | teachers in indigenous primary school | teachers_indigenous_school
+-Escuelas en primaria indígena | indigenous primary schools | indigenous_primary_schools
+-Estudiantes activos en bachillerato  del sistema abierto | active students in open high school program | active_students_open_highschool
+-Egresados en bachillerato del sistema abierto | graduate students in open high school program | graduate_students_open_highschool
+
+education_5
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Adultos alfabetizados | literate adults | literate_adults
+-Adultos alfabetizados hombres | literate adults (men) | literate_adults_men
+-Adultos alfabetizados mujeres | literate adults (women) literate_adults_women
+-Alfabetizadores | literacy teachers |  literacy_teachers
+-Adultos atendidos en primaria | attended adults in primary school | adults_primary_school
+-Certificados emitidos de primaria | primary school certificates | primary_school_certificates
+-Adultos atendidos en secundaria | attended adults in middle school | adults_middle_school
+-Certificados emitidos de secundaria | middle school certificates | middle_school_certificates
+-Alumnos inscritos en formación para el trabajo | enrolled students in work training | enrolled_students_work_training
+-Alumnos existencias en formación para el trabajo | students in work training | students_work_training 
+-Alumnos acreditados en formación para el trabajo | accredited students in work training | accredited_students_work_training
+-Personal docente en formación para el trabajo | teachers in work training | teachers_work_training
+-Escuelas en formación para el trabajo | work training schools | schools_work_training
+	
+education_6
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Planteles, infraestructura educativa a/ | number of campuses | number_campuses
+-Aulas, infraestructura educativa a/ | number of classrooms | number_classrooms
+-Bibliotecas, infraestructura educativa a/ | number of libraries | number_libraries
+-Laboratorios, infraestructura educativa a/ | number of laboratories | number_laboratories
+-Talleres, infraestructura educativa a/ | number of studios | number_studios
+-Anexos, infraestructura educativa a/ | numbers of annexes | number_annexes
+-Bibliotecas públicas b/ | public libraries | number_public_libraries
+-Personal ocupado en bibliotecas públicas b/ | number of employees in public libraries | employees_public_libraries   
+-Títulos en bibliotecas públicas b/ | titles in public libraries | titles_public_libraries
+-Libros en existencia en bibliotecas públicas b/ | number of books in public libraries | books_public_libraries
+-Consultas realizadas en bibliotecas públicas | number of  library consultations |  library_consultations 	
+-Usuarios en bibliotecas públicas | number of users in public libraries | users_public_libraries
+
+enviroment
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Árboles plantados | trees planted | trees_planted	
+-Superficie reforestada (hectáreas) a/ | reforested area | reforested_area 
+-Volumen de basura recolectada (miles de toneladas) | garbage collection | garbage_collection
+-Denuncias recibidas en materia ambiental | environmental complaints | environmental_complaints
+-Licencias Ambientales Únicas vigentes b/ active single environmental licenses | environmental_licenses 
+
+health
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Población derechohabiente a/ | social security beneficiaries | social_security_beneficiaries
+-Población usuaria b/ | users of social security system | social_security_users
+-Familias beneficiadas c/ | number of benefited families | benefited_families 
+-Afiliados c/ social security affiliates | social_security_affiliates
+-Consultas externas otorgadas d/ | external medical consultations | external_consultations
+
+health_1
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Consultas por médico | consultations per doctor | consultations_per_doctor 
+-Consultas por unidad médica | consultations per medical unit | consultations_per_unit
+-Médicos por unidad médica | doctors per medical unit | doctors_per_unit
+  	 		
+justice_system_1
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Fuero común a/ | common crimes agencies (Public Prosecutor’s Office) | common_crime_agencies 
+-Fuero federal a/ federal crimes agencies (Public Prosecutor’s Office) | federal_crimes_agencies	
+-Fuero común a/ common crimes public prosecutors | common_crimes_prosecutors
+-Fuero federal a/ federal crimes public prosecutors | federal_crimes_prosecutors
+
+justice_system_2
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Total | number of accidents | number_accidents
+-Colisión con vehículo | car crash |car_crash
+-Colisión con peatón |  pedestrian crash | pedestrian_crash
+-Colisión con objeto fijo | object crash | object_crash
+-Otros | others crashes | others_crashes
+
+justice_system_3
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Fuero común a/ common crimes agencies (Public Prosecutor’s Office) | common_crime_agencies 
+-Fuero federal a/ federal crimes agencies (Public Prosecutor’s Office) | federal_crimes_agencies
+-Capacidad de los centros de readaptación social (personas) a/ | capacity penitentiary centers | capacity_penitentiary_centers 
+-Internos de los centros de readaptación social b/ inmates in penitentiary centers | total_inmmates
+-Internos del fuero común de los centros de readaptación social (total) b/ | common crimes inmates | common_crimes_inmates 
+-Internos del fuero común de los centros de readaptación social (hombres) b/ | common crimes inmates (men) | common_crimes_inmates_men
+-Internos del fuero común de los centros de readaptación social (mujeres) b/ common crimes inmates (women) | common_crimes_inmates_women
+-Internos del fuero federal de los centros de readaptación social (total) b | federal crimes inmates | federal_crimes_inmates
+-Internos del fuero federal de los centros de readaptación social (hombres) b/ | federal crimes inmates (men) | federal_crimes_men 
+-Internos del fuero federal de los centros de readaptación social (mujeres) b/ | federal crimes inmates (women) | federal_crimes_inmates_women
+-Internos del fuero común y federal de los centros de readaptación social (total) b/ | total inmates | total_inmates1
+-Internos del fuero común y federal de los centros de readaptación social (hombres) b/ | total inmates (men) | total_inmates_men
+-Internos del fuero común y federal de los centros de readaptación social (mujeres) b/ | total inmates (woman) | total_inmates_woman
+
+
+
+percentage_jungle_forest
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Porcentaje de la superficie cubierta por bosques y selvas | percentaje of area covered by forests and jungles | area_forests_jungles
+
+state_income_expenditure
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Ingresos | state income | state_income
+-Egresos | state expenditure | state_expenditure
+
+total_population
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Total | total_population
+-1-2499 habitantes | population in small localities | population_small_localities 
+-2500 y más habitantes | population in large localities | population_large_localities 
+-No aplica | not applicable | not_applicable 
+
+
+
+
+
+
+
+
+
+
