@@ -72,15 +72,11 @@
       <br> </br>
       <br> </br>
 
-      <h2>What type of descriptive analysis would you like to do?</h2>
-      <form action="user" method="post">
-          <input type="radio" name="analysis" value="year_wise">Year-wise Analysis</option>
+      <h2>What type of analysis would you like to do?</h2>
+      <form action="/descriptive_analysis" method="get">
+          <input type="radio" name="analysis" value="descriptive_analysis">Descriptive Analysis</option>
           <br> </br>
-          <input type="radio" name="analysis" value="state_wise">State-wise Analysis</option>
-          <br> </br>
-          <input type="radio" name="analysis" value="year_state_both">Both Year and State-wise Analysis</option>
-          <br> </br>
-          <input type="radio" name="analysis"n value="corr_matrix">Correlation between Crime and Other Variables Analysis</option>
+          <input type="radio" name="analysis" value="predictive_analytics">Predictive Analytics</option>
           <br> </br>
           <input type="submit" value="Submit">
       </form>

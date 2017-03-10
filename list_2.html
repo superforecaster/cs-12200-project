@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
    <body>
-      <h1> {{header}}  {{header2}} </h1>
-
+      <h1> {{header}} </h1>
       <table border = 1, align = "left">
          <thead>
             <td>{{column_1_table1}}</td>
@@ -29,24 +28,22 @@
             </tr>
          {% endfor %}
       </table>
-      
-   </body>
-
-
-  <head>   <meta charset="utf-8" />   
-    
-    <br> </br>
-    
-    <a href = "/">Go back to home page</a>
-    
-    <title>Year-wise Analysis </title>      <!-- import plugin script -->   <script src='static/Chart.min.js'></script>   </head><body>
+<head>
+   <meta charset="utf-8" />
+   <title>State-wise Analysis</title>
+ 
+   <!-- import plugin script -->
+   <script src='static/Chart.min.js'></script>
+ 
+</head>
+<body>
 
      <style type="text/css">    
       {
         background-color:white;
       }
 
-      h2
+      h1
       {
         font-size:25px;
         margin-top:5;
@@ -59,9 +56,13 @@
       }
       </style>
 
-  <h2>Bar chart</h2><!-- bar chart canvas element --><canvas id="chart" width="400" height="400"></canvas>
-
-  <script>
+ 
+<h1>State-wise Line Chart</h1>
+<!-- line chart canvas element -->
+<canvas id="chart" width="600" height="400"></canvas>
+ 
+<script>
+ 
    // bar chart data
    var barData = {
    labels : [{% for item in labels %}
@@ -72,12 +73,24 @@
             fillColor: "rgba(151,187,205,0.2)",
             strokeColor: "rgba(151,187,205,1)",
             pointColor: "rgba(151,187,205,1)",
-         data : [{% for item in values %}
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(151,187,205,1)",
+            bezierCurve : false,
+            data : [{% for item in values %}
                       {{item}},
                     {% endfor %}]
-      }
-      ]
+      }]
    }
+ 
+    Chart.defaults.global.animationSteps = 50;
+    Chart.defaults.global.tooltipYPadding = 16;
+    Chart.defaults.global.tooltipCornerRadius = 0;
+    Chart.defaults.global.tooltipTitleFontStyle = "normal";
+    Chart.defaults.global.tooltipFillColor = "rgba(0,0,0,0.8)";
+    Chart.defaults.global.responsive = false;
+    Chart.defaults.global.scaleLineColor = "black";
+    Chart.defaults.global.scaleFontSize = 16;
  
    // get bar chart canvas
    var mychart = document.getElementById("chart").getContext("2d");
@@ -85,7 +98,7 @@
    steps = 10
    max = {{max_value}}
    // draw bar chart
-   new Chart(mychart).Bar(barData, {
+   var LineChartDemo = new Chart(mychart).Line(barData, {
         scaleOverride: true,
         scaleSteps: steps,
         scaleStepWidth: Math.ceil(max / steps),
@@ -93,10 +106,13 @@
         scaleShowVerticalLines: true,
         scaleShowGridLines : true,
         barShowStroke : true,
-        scaleShowLabels: true
+        scaleShowLabels: true,
+        bezierCurve: false,
+ 
    });
  
+ 
 </script>
+ 
 </body>
-</html
-
+</html>

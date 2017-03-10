@@ -1,9 +1,9 @@
 <main>
-    <form action="/year_wise_output" method="get">
-        <h1> Year-wise Analysis </h1>
+    <form action="/corr_matrix_output_year" method="get">
+        <h1> Correlation Matrix Year-wise Analysis </h1>
 
-        <p1>Please select a year</p>
-        
+        <p1>Please select a year</p1>
+
         <select name="year">
         {% for year in years %}
 
@@ -11,6 +11,7 @@
 
         {% endfor %}
         </select>
+        <br> </br>
         <input type="submit" value="Submit">
     </form>
 </main>

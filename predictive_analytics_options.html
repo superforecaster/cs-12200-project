@@ -1,0 +1,31 @@
+<main>
+
+ <h1>Please select the year and crime type to predict crime rates</h1>
+
+    <form action="/predictive_analytics_output" method="get">
+
+        <p1>Select a state</p1>
+        
+        <select name="state_name">
+        {% for state in states %}
+
+            <option value="{{state[0]}}">{{state[0]}}</option>
+
+        {% endfor %}
+    
+        </select>
+        <br> </br>
+
+        <p2>Select a year</p2>
+        
+        <select name="year">
+        {% for year in years %}
+
+            <option value="{{year[0]}}">{{year[0]}}</option>
+
+        {% endfor %}
+        </select>
+        <br> </br>
+        <input type="submit" value="Submit">
+    </form>
+</main>

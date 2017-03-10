@@ -1,0 +1,18 @@
+<main>
+    <form action="/corr_matrix_output_state" method="get">
+        <h1> Correlation Matrix State-wise Analysis </h1>
+
+        <p1>Please select a state</p1>
+        
+        <select name="state_name">
+        {% for state in states %}
+
+            <option value="{{state[0]}}">{{state[0]}}</option>
+
+        {% endfor %}
+        </select>
+        <br> </br>
+        <input type="submit" value="Submit">
+
+    </form>
+</main>

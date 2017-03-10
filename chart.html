@@ -1,39 +1,4 @@
-<!doctype html>
-<html>
-   <body>
-      <h1> {{header}}  {{header2}} </h1>
-
-      <table border = 1, align = "left">
-         <thead>
-            <td>{{column_1_table1}}</td>
-            <td>{{column_2_table1}}</td>
-         </thead>
-         
-         {% for row in rows %}
-            <tr>
-               <td>{{row[0]}}</td>
-               <td>{{row[1]}}</td>
-            </tr>
-         {% endfor %}
-      </table>
-
-      <table border = 1, align = "center", style="margin-left:70px; display: inline-block;">
-         <thead>
-            <td>{{column_1_table2}}</td>
-         </thead>
-         
-         {% for row_stats in desc_stats %}
-            <tr>
-               <td>{{row_stats[0]}}</td>
-               <td>{{row_stats[1]}}</td> 
-            </tr>
-         {% endfor %}
-      </table>
-      
-   </body>
-
-
-  <head>   <meta charset="utf-8" />   
+ <head>   <meta charset="utf-8" />   
     
     <br> </br>
     
@@ -99,4 +64,3 @@
 </script>
 </body>
 </html
-

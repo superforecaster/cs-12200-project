@@ -1,0 +1,16 @@
+<main>
+    <form action="/state_wise_output" method="get">
+        <h1> State-wise Analysis </h1>
+
+        <p1>Please select a state</p>
+        
+        <select name="state_name">
+        {% for state in states %}
+
+            <option value="{{state[0]}}">{{state[0]}}</option>
+
+        {% endfor %}
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</main>
