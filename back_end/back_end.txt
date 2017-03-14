@@ -1,0 +1,2 @@
+Here is where the python scripts to create the data_frame, clean the data_frame, 
+run a forecast model using the data_frame and retrive the forecast results are located.
