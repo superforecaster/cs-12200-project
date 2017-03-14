@@ -1,0 +1,114 @@
+*HOW TO CREATE THE LAYOUT
+1) Open CSV
+2) Copy table name in SUMMARY and TABLES
+3) Copy past variables in spanish (transpose)
+4) translate variable | give a table column name (use "_" between words)
+5) Create table in create_db.sql 
+    5.1) Use same table name than 2)
+    5.2) Use types (number integer, decimal float, string varchar) for variables
+    5.3) Use state_key state_name as foreign keys
+
+-SUMMARY
+Crime | crime
+Employment | employment
+Economic Activity | economic_activity
+Urbanization | urbanization
+Justice System | justice_system
+Number of Cars | cars
+Number of Strikes | strikes
+
+-TABLES
+Name spanish| Name english |Name in the database
+
+crime
+-Año | year | year
+-Clave| state key| state_key
+-Nombre| state name| state_name
+-Crimenes total | Total crimes| total
+-Crimen violento| Violent crime| violent
+-Homicidio violento| Violent omicide| homicides
+-Robo a casa| houselhold crime| household_crimes
+-Violacion | Rape| rape
+-Homicidios en general| General Homicides |general_homicides
+-Lesiones| Injuries| injuries
+-Otros crimenes| Other crimes| other_crimes
+-Secuestro| Kidnap| kidnap
+-Robo comun| Common thief| common_thief
+-Robo de ganado| Cattle thief| cattle_thief
+-Robo a bancos| Banking thief| banking_thief
+-Robo en carretera| Highway thief| highway_thief
+-Crimen no violento| No violent crime| no_violent
+
+employment
+-Año | year | year
+-Clave| state key| state_key
+-Nombre| state name| state_name
+-Población de 14 y más años| population 14 years old and more| pop_14_and_more
+-Población de 14 y más años económicamente activa| population 14 years old and more economically active| pop_14_and_more_econ
+-Ocupada| employed population| employed_pop
+-Ocupada (hombres)| employed (men)| employed_pop_men
+-Ocupada (mujeres)| employed (woman)| employed_pop_woman
+-Desocupada| unemployed population| unemployed_pop
+-Desocupada (hombres)| unemployed (men)| unemployed_pop_men
+-Desocupada (mujeres)| unemployed (woman)| unepmloyed_pop_woman
+-Población de 14 y más años no económicamente activa| population 14 years olf and more non economically active| pop_14_and_more_non_econ
+-Disponible| available population| available_pop
+-No disponible| non available population| non_available_pop
+
+economic_activity
+-Año | year | year
+-Clave| state key| state_key
+-Nombre| state name| state_name
+-Total| total | total
+-Actividades primarias| primary activities|primary_activities
+-Actividades secundarias|secondary acitivities | secondary_activities
+-Actividades terciarias| tertiary activities| tertiary_activities
+-Servicios de Intermediación Financiera Medidos Indirectamente| Services of financial intermediation measure inderectly | financial_services
+
+urbanization
+-Año| year | year
+-Clave|state key|state_key
+-Nombre|state name| state_name
+-Créditos en programas de vivienda| number of credits for household programs| number_credits
+-Inversión ejercida en programas de vivienda (miles de pesos)| investment in household programs |  investment_household
+-Fuentes de abastecimiento de agua a/| number of water sources| water_sources
+-Plantas potabilizadoras de agua en operación a/| number of water treatment plants | treatment_plants
+-Capacidad instalada de las plantas potabilizadoras en operación (litros por segundo) a/| water install capacity| water_capacity
+-Volumen suministrado anual de agua potable (millones de metros cúbicos) b/| volume of water | volum_water
+-Sistemas de agua entubada a/| systems of intubated water | intubated_water
+-Tomas domiciliarias de agua entubada a/| number of household water sources | household_water_sources
+-Localidades con red de distribución de agua entubada a/| number of localities with water distribution| localities_water
+-Sistemas de drenaje y alcantarillado a/| systems of drainage and sewage | drainage_sewage
+-Localidades con el servicio de drenaje y alcantarillado a/| localities with drainage and sewage | localities_drainage_sewage
+-Tomas instaladas de energía eléctrica a/| sources of electric energy | sources_electric_energy
+-Localidades con el servicio de energía eléctrica a/| localities with sources of electric energy | localities_sources_electric_energy
+-Parques de juegos infantiles a/| parks with playgrounds | parks
+-Jardines vecinales a/| common gardens | gardens
+-Capacidad total de almacenamiento de las presas (millones de metros cúbicos) b/ | total dam capacity | dam_capacity
+-Capacidad útil de almacenamiento de las presas (millones de metros cúbicos) b/ | total useful dam capacity |
+useful_dam_capacity
+-Volumen anual utilizado de agua de las presas (millones de metros cúbicos) c/ | annual used dam volume | used_dam_volume
+
+justice_system
+-Año| year | year
+-Clave|state key|state_key
+-Nombre|state name| state_name
+- Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero común a/ | suspects of common crimes| suspects_common_crimes
+- Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero común a/ | sentenced of common crimes | sentenced_common_crimes
+- Presuntos delincuentes registrados en los juzgados de primera instancia en materia penal del fuero federal a/ | suspects of federal crimes |  suspects_federal_crimes
+- Sentenciados registrados en los juzgados de primera instancia en materia penal del fuero federal a/ | sentenced of federal crimes | sentenced_federal_crimes 
+- Tasa de personas con sentencia condenatoria b/ | rate of suspects sentenced| rate_sentenced
+-Tasa de personas con sentencia condenatoria del fuero federal c/ | rate of suspects sentenced for a federal crime | rate_sentenced_federal
+-Tasa de personas con sentencia condenatoria del fuero común d/ | rate of suspects sentenced for a common crime | rate_sentenced_common
+
+cars
+-Año| year | year
+-Clave|state key|state_key
+-Nombre|state name| state_name
+-Clase de vehículo | number of cars | number_cars
+
+strikes
+-Año| year | year
+-Clave|state key| state_key
+-Nombre|state name| state_name
+-Clase de vehículo | number of cars | number_cars
