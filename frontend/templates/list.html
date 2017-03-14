@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+   <body>
+      <h1> {{header}}  {{header2}} </h1>
+
+      <table border = 1, align = "left">
+         <thead>
+            <td>{{column_1_table1}}</td>
+            <td>{{column_2_table1}}</td>
+         </thead>
+         
+         {% for row in rows %}
+            <tr>
+               <td>{{row[0]}}</td>
+               <td>{{row[1]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+
+      <table border = 1, align = "center", style="margin-left:70px; display: inline-block;">
+         <thead>
+            <td>{{column_1_table2}}</td>
+         </thead>
+         
+         {% for row_stats in desc_stats %}
+            <tr>
+               <td>{{row_stats[0]}}</td>
+               <td>{{row_stats[1]}}</td> 
+            </tr>
+         {% endfor %}
+      </table>
+      
+   </body>
+
+
+  <head>   <meta charset="utf-8" />   
+    
+    <br> </br>
+    
+    <a href = "/">Go back to home page</a>
+    
+    <title>Year-wise Analysis </title>      <!-- import plugin script -->   <script src='static/Chart.min.js'></script>   </head><body>
+
+     <style type="text/css">    
+      {
+        background-color:white;
+      }
+
+      h2
+      {
+        font-size:25px;
+        margin-top:5;
+        font-family:Times, sans-serif;
+        text-align: left;
+        text-shadow:0px 0 0px #292929;
+        letter-spacing:3px;
+        text-decoration:none;
+        color:black;
+      }
+      </style>
+
+  <h2>Bar chart</h2><!-- bar chart canvas element --><canvas id="chart" width="500" height="600"></canvas>
+
+  <script>
+   // bar chart data
+   var barData = {
+   labels : [{% for item in labels %}
+                  "{{item}}",
+              {% endfor %}],
+   datasets : [
+      {
+            fillColor: "rgba(151,187,205,0.2)",
+            strokeColor: "rgba(151,187,205,1)",
+            pointColor: "rgba(151,187,205,1)",
+         data : [{% for item in values %}
+                      {{item}},
+                    {% endfor %}]
+      }
+      ]
+   }
+ 
+   // get bar chart canvas
+   var mychart = document.getElementById("chart").getContext("2d");
+ 
+   steps = 10
+   max = {{max_value}}
+   // draw bar chart
+   new Chart(mychart).Bar(barData, {
+        scaleOverride: true,
+        scaleSteps: steps,
+        scaleStepWidth: Math.ceil(max / steps),
+        scaleStartValue: 0,
+        scaleShowVerticalLines: true,
+        scaleShowGridLines : true,
+        barShowStroke : true,
+        scaleShowLabels: true
+   });
+ 
+</script>
+</body>
+</html
+

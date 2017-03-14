@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Crime Analytics of the Mexico!</title> 
+
+    <link     href='http://fonts.googleapis.com/css?family=Sintony:400,700'     rel='stylesheet' type='text/css'>
+
+    <style type="text/css">    
+      body
+      {
+        background-color:white;
+      }
+
+      h1
+      {
+        font-size:40px;
+        margin-top:5;
+        font-family:Times, sans-serif;
+        text-align: center;
+        letter-spacing:1px;
+        text-decoration:none;
+        color:black;
+      }
+
+      h2
+      {
+        font-size:25px;
+        margin-top:0;
+        font-family:Times, sans-serif;
+        letter-spacing:0px;
+        text-align:center;
+        text-decoration:none;
+        color:black;
+      }
+
+      #banner
+      {
+        width:350px;
+        height:350px;
+        text-align:center;
+        background-image:url(https://i0.wp.com/www.copblock.org/wp-content/uploads/2016/04/EPZ-CRIMECENTER-02.jpeg?fit=1140%2C833&resize=350%2C200);
+        background-repeat:no-repeat;
+        border-radius:10px;
+        
+        margin:10px auto auto;
+        padding:0px 0;
+      }
+
+      p
+      { color:black;}
+
+      .lead
+      {
+        background-color:white;
+        border-radius:0px;
+        box-shadow:rgba(0,0,0,0.2) 0 1px 3px;
+        font-family:Sintony, sans-serif;
+      }
+    </style>
+
+  </head>  
+
+  <body>
+    <h1>Crime Analytics of Mexico</h1>
+    <div id="banner">
+      <br> </br>
+      <br> </br>
+      <br> </br>
+      <br> </br>
+      <br> </br>
+      <br> </br>
+
+      <h2>What type of analysis would you like to do?</h2>
+      <form action="/descriptive_analysis" method="get">
+          <input type="radio" name="analysis" value="descriptive_analysis">Descriptive Analysis</option>
+          <br> </br>
+          <input type="radio" name="analysis" value="predictive_analytics">Predictive Analytics</option>
+          <br> </br>
+          <input type="submit" value="Submit">
+      </form>
+
+    </div>
+    <div id="emailform">
+
+    </div>
+  </body>
+</html>

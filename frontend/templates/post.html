@@ -1,0 +1,16 @@
+<main>
+    <form action="/year_wise_output" method="get">
+        <h1> Year-wise Analysis </h1>
+
+        <p1>Please select a year</p>
+        
+        <select name="year">
+        {% for year in years %}
+
+            <option value="{{year[0]}}">{{year[0]}}</option>
+
+        {% endfor %}
+        </select>
+        <input type="submit" value="Submit">
+    </form>
+</main>

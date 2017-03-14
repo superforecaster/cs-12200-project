@@ -1,0 +1,29 @@
+<main>
+    <form action="/year_state_both_wise_output" method="get">
+        <h1> Year- and State-wise Analysis </h1>
+
+        <p1>Please select a state</p1>
+        
+        <select name="state_name">
+        {% for state in states %}
+
+            <option value="{{state[0]}}">{{state[0]}}</option>
+
+        {% endfor %}
+    
+        </select>
+        <br> </br>
+
+        <p2>Please select a year</p2>
+        
+        <select name="year">
+        {% for year in years %}
+
+            <option value="{{year[0]}}">{{year[0]}}</option>
+
+        {% endfor %}
+        </select>
+        <br> </br>
+        <input type="submit" value="Submit">
+    </form>
+</main>

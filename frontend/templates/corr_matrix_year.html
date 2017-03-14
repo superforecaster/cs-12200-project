@@ -1,0 +1,17 @@
+<main>
+    <form action="/corr_matrix_output_year" method="get">
+        <h1> Correlation Matrix Year-wise Analysis </h1>
+
+        <p1>Please select a year</p1>
+
+        <select name="year">
+        {% for year in years %}
+
+            <option value="{{year[0]}}">{{year[0]}}</option>
+
+        {% endfor %}
+        </select>
+        <br> </br>
+        <input type="submit" value="Submit">
+    </form>
+</main>
