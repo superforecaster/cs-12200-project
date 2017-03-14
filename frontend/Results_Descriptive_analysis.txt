@@ -1,0 +1,18 @@
+There are interesting insights that have come out from the Descriptive Analysis of the Crime in Mexico:
+
+
+1. Baja California has a consistently highest rate of crime
+
+2. The time period of 1999 to 2001 has a high rate of crime for majority of states in Mexico
+
+3. Most common crime types found:
+	—Common Thief
+	—Household crimes
+	—Injuries
+	—Other Crimes
+
+4. Correlation Matrix:
+	-violent crimes  are negatively correlated most with with a high number of suspects of federal crimes
+	-violent crimes (robbery, homicides, kidnapping)  are positively correlated most with with a high number of cars and primary activities/employment/unemployment. This means (possibly) that most violent crimes in Mexico take place in urban/semi-urban areas. This also means that there is virtually little or less police control.
+
+	-non-violent crimes also have a similar pattern as of violent crimes
