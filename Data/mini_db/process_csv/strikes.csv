@@ -1,0 +1,792 @@
+Year,State_ID,State,Total
+1991,01,Aguascalientes,74.0
+1991,02,Baja California,793.0
+1991,03,Baja California Sur,120.0
+1991,04,Campeche,25.0
+1991,05,Coahuila de Zaragoza,295.0
+1991,06,Colima,94.0
+1991,07,Chiapas,20.0
+1991,08,Chihuahua,170.0
+1991,09,Ciudad de MÃ©xico,3111.0
+1991,10,Durango,239.0
+1991,11,Guanajuato,259.0
+1991,12,Guerrero,539.0
+1991,13,Hidalgo,220.0
+1991,14,Jalisco,8684.0
+1991,15,MÃ©xico,5631.0
+1991,16,MichoacÃ¡n de Ocampo,171.0
+1991,17,Morelos,1101.0
+1991,18,Nayarit,403.0
+1991,19,Nuevo LeÃ³n,7316.0
+1991,20,Oaxaca,151.0
+1991,21,Puebla,211.0
+1991,22,QuerÃ©taro,286.0
+1991,23,Quintana Roo,478.0
+1991,24,San Luis PotosÃ­,76.0
+1991,25,Sinaloa,506.0
+1991,26,Sonora,524.0
+1991,27,Tabasco,125.0
+1991,28,Tamaulipas,932.0
+1991,29,Tlaxcala,117.0
+1991,30,Veracruz de Ignacio de la Llave,573.0
+1991,31,YucatÃ¡n,97.0
+1991,32,Zacatecas,18.0
+1992,01,Aguascalientes,115.0
+1992,02,Baja California,771.0
+1992,03,Baja California Sur,145.0
+1992,04,Campeche,16.0
+1992,05,Coahuila de Zaragoza,323.0
+1992,06,Colima,85.0
+1992,07,Chiapas,20.0
+1992,08,Chihuahua,140.0
+1992,09,Ciudad de MÃ©xico,2559.0
+1992,10,Durango,218.0
+1992,11,Guanajuato,382.0
+1992,12,Guerrero,791.0
+1992,13,Hidalgo,194.0
+1992,14,Jalisco,8679.0
+1992,15,MÃ©xico,5765.0
+1992,16,MichoacÃ¡n de Ocampo,192.0
+1992,17,Morelos,1132.0
+1992,18,Nayarit,365.0
+1992,19,Nuevo LeÃ³n,6543.0
+1992,20,Oaxaca,392.0
+1992,21,Puebla,628.0
+1992,22,QuerÃ©taro,246.0
+1992,23,Quintana Roo,459.0
+1992,24,San Luis PotosÃ­,74.0
+1992,25,Sinaloa,434.0
+1992,26,Sonora,415.0
+1992,27,Tabasco,50.0
+1992,28,Tamaulipas,920.0
+1992,29,Tlaxcala,113.0
+1992,30,Veracruz de Ignacio de la Llave,677.0
+1992,31,YucatÃ¡n,107.0
+1992,32,Zacatecas,4.0
+1993,01,Aguascalientes,93.0
+1993,02,Baja California,954.0
+1993,03,Baja California Sur,185.0
+1993,04,Campeche,20.0
+1993,05,Coahuila de Zaragoza,184.0
+1993,06,Colima,157.0
+1993,07,Chiapas,22.0
+1993,08,Chihuahua,141.0
+1993,09,Ciudad de MÃ©xico,3659.0
+1993,10,Durango,404.0
+1993,11,Guanajuato,456.0
+1993,12,Guerrero,867.0
+1993,13,Hidalgo,268.0
+1993,14,Jalisco,8282.0
+1993,15,MÃ©xico,5785.0
+1993,16,MichoacÃ¡n de Ocampo,229.0
+1993,17,Morelos,996.0
+1993,18,Nayarit,369.0
+1993,19,Nuevo LeÃ³n,7393.0
+1993,20,Oaxaca,243.0
+1993,21,Puebla,650.0
+1993,22,QuerÃ©taro,349.0
+1993,23,Quintana Roo,497.0
+1993,24,San Luis PotosÃ­,73.0
+1993,25,Sinaloa,182.0
+1993,26,Sonora,598.0
+1993,27,Tabasco,107.0
+1993,28,Tamaulipas,883.0
+1993,29,Tlaxcala,119.0
+1993,30,Veracruz de Ignacio de la Llave,817.0
+1993,31,YucatÃ¡n,77.0
+1993,32,Zacatecas,13.0
+1994,01,Aguascalientes,180.0
+1994,02,Baja California,1034.0
+1994,03,Baja California Sur,219.0
+1994,04,Campeche,20.0
+1994,05,Coahuila de Zaragoza,228.0
+1994,06,Colima,141.0
+1994,07,Chiapas,20.0
+1994,08,Chihuahua,105.0
+1994,09,Ciudad de MÃ©xico,4272.0
+1994,10,Durango,480.0
+1994,11,Guanajuato,325.0
+1994,12,Guerrero,1019.0
+1994,13,Hidalgo,304.0
+1994,14,Jalisco,7233.0
+1994,15,MÃ©xico,4965.0
+1994,16,MichoacÃ¡n de Ocampo,560.0
+1994,17,Morelos,1052.0
+1994,18,Nayarit,278.0
+1994,19,Nuevo LeÃ³n,8885.0
+1994,20,Oaxaca,202.0
+1994,21,Puebla,644.0
+1994,22,QuerÃ©taro,198.0
+1994,23,Quintana Roo,440.0
+1994,24,San Luis PotosÃ­,92.0
+1994,25,Sinaloa,207.0
+1994,26,Sonora,643.0
+1994,27,Tabasco,143.0
+1994,28,Tamaulipas,548.0
+1994,29,Tlaxcala,94.0
+1994,30,Veracruz de Ignacio de la Llave,1293.0
+1994,31,YucatÃ¡n,51.0
+1994,32,Zacatecas,5.0
+1995,01,Aguascalientes,62.0
+1995,02,Baja California,1035.0
+1995,03,Baja California Sur,214.0
+1995,04,Campeche,26.0
+1995,05,Coahuila de Zaragoza,223.0
+1995,06,Colima,85.0
+1995,07,Chiapas,13.0
+1995,08,Chihuahua,104.0
+1995,09,Ciudad de MÃ©xico,4214.0
+1995,10,Durango,492.0
+1995,11,Guanajuato,372.0
+1995,12,Guerrero,747.0
+1995,13,Hidalgo,285.0
+1995,14,Jalisco,6521.0
+1995,15,MÃ©xico,5131.0
+1995,16,MichoacÃ¡n de Ocampo,308.0
+1995,17,Morelos,779.0
+1995,18,Nayarit,266.0
+1995,19,Nuevo LeÃ³n,8360.0
+1995,20,Oaxaca,199.0
+1995,21,Puebla,1052.0
+1995,22,QuerÃ©taro,279.0
+1995,23,Quintana Roo,367.0
+1995,24,San Luis PotosÃ­,160.0
+1995,25,Sinaloa,152.0
+1995,26,Sonora,694.0
+1995,27,Tabasco,141.0
+1995,28,Tamaulipas,669.0
+1995,29,Tlaxcala,88.0
+1995,30,Veracruz de Ignacio de la Llave,1503.0
+1995,31,YucatÃ¡n,132.0
+1995,32,Zacatecas,19.0
+1996,01,Aguascalientes,80.0
+1996,02,Baja California,1230.0
+1996,03,Baja California Sur,225.0
+1996,04,Campeche,44.0
+1996,05,Coahuila de Zaragoza,216.0
+1996,06,Colima,61.0
+1996,07,Chiapas,21.0
+1996,08,Chihuahua,88.0
+1996,09,Ciudad de MÃ©xico,5273.0
+1996,10,Durango,505.0
+1996,11,Guanajuato,289.0
+1996,12,Guerrero,751.0
+1996,13,Hidalgo,289.0
+1996,14,Jalisco,2833.0
+1996,15,MÃ©xico,5875.0
+1996,16,MichoacÃ¡n de Ocampo,297.0
+1996,17,Morelos,764.0
+1996,18,Nayarit,223.0
+1996,19,Nuevo LeÃ³n,8356.0
+1996,20,Oaxaca,207.0
+1996,21,Puebla,786.0
+1996,22,QuerÃ©taro,546.0
+1996,23,Quintana Roo,627.0
+1996,24,San Luis PotosÃ­,149.0
+1996,25,Sinaloa,171.0
+1996,26,Sonora,652.0
+1996,27,Tabasco,133.0
+1996,28,Tamaulipas,675.0
+1996,29,Tlaxcala,69.0
+1996,30,Veracruz de Ignacio de la Llave,1446.0
+1996,31,YucatÃ¡n,90.0
+1996,32,Zacatecas,2.0
+1997,01,Aguascalientes,90.0
+1997,02,Baja California,1345.0
+1997,03,Baja California Sur,229.0
+1997,04,Campeche,38.0
+1997,05,Coahuila de Zaragoza,185.0
+1997,06,Colima,77.0
+1997,07,Chiapas,54.0
+1997,08,Chihuahua,72.0
+1997,09,Ciudad de MÃ©xico,4056.0
+1997,10,Durango,420.0
+1997,11,Guanajuato,329.0
+1997,12,Guerrero,748.0
+1997,13,Hidalgo,447.0
+1997,14,Jalisco,4363.0
+1997,15,MÃ©xico,5857.0
+1997,16,MichoacÃ¡n de Ocampo,351.0
+1997,17,Morelos,773.0
+1997,18,Nayarit,246.0
+1997,19,Nuevo LeÃ³n,7449.0
+1997,20,Oaxaca,212.0
+1997,21,Puebla,1235.0
+1997,22,QuerÃ©taro,339.0
+1997,23,Quintana Roo,1103.0
+1997,24,San Luis PotosÃ­,132.0
+1997,25,Sinaloa,187.0
+1997,26,Sonora,701.0
+1997,27,Tabasco,309.0
+1997,28,Tamaulipas,511.0
+1997,29,Tlaxcala,77.0
+1997,30,Veracruz de Ignacio de la Llave,1461.0
+1997,31,YucatÃ¡n,100.0
+1997,32,Zacatecas,8.0
+1998,01,Aguascalientes,59.0
+1998,02,Baja California,1605.0
+1998,03,Baja California Sur,210.0
+1998,04,Campeche,49.0
+1998,05,Coahuila de Zaragoza,166.0
+1998,06,Colima,59.0
+1998,07,Chiapas,20.0
+1998,08,Chihuahua,70.0
+1998,09,Ciudad de MÃ©xico,3758.0
+1998,10,Durango,389.0
+1998,11,Guanajuato,373.0
+1998,12,Guerrero,718.0
+1998,13,Hidalgo,558.0
+1998,14,Jalisco,4850.0
+1998,15,MÃ©xico,6324.0
+1998,16,MichoacÃ¡n de Ocampo,279.0
+1998,17,Morelos,644.0
+1998,18,Nayarit,256.0
+1998,19,Nuevo LeÃ³n,6163.0
+1998,20,Oaxaca,242.0
+1998,21,Puebla,956.0
+1998,22,QuerÃ©taro,333.0
+1998,23,Quintana Roo,1022.0
+1998,24,San Luis PotosÃ­,126.0
+1998,25,Sinaloa,172.0
+1998,26,Sonora,1080.0
+1998,27,Tabasco,312.0
+1998,28,Tamaulipas,452.0
+1998,29,Tlaxcala,68.0
+1998,30,Veracruz de Ignacio de la Llave,1827.0
+1998,31,YucatÃ¡n,80.0
+1998,32,Zacatecas,5.0
+1999,01,Aguascalientes,121.0
+1999,02,Baja California,2043.0
+1999,03,Baja California Sur,228.0
+1999,04,Campeche,22.0
+1999,05,Coahuila de Zaragoza,186.0
+1999,06,Colima,70.0
+1999,07,Chiapas,37.0
+1999,08,Chihuahua,36.0
+1999,09,Ciudad de MÃ©xico,3004.0
+1999,10,Durango,460.0
+1999,11,Guanajuato,260.0
+1999,12,Guerrero,716.0
+1999,13,Hidalgo,537.0
+1999,14,Jalisco,4877.0
+1999,15,MÃ©xico,7332.0
+1999,16,MichoacÃ¡n de Ocampo,322.0
+1999,17,Morelos,747.0
+1999,18,Nayarit,263.0
+1999,19,Nuevo LeÃ³n,3610.0
+1999,20,Oaxaca,214.0
+1999,21,Puebla,1092.0
+1999,22,QuerÃ©taro,326.0
+1999,23,Quintana Roo,779.0
+1999,24,San Luis PotosÃ­,113.0
+1999,25,Sinaloa,188.0
+1999,26,Sonora,1067.0
+1999,27,Tabasco,112.0
+1999,28,Tamaulipas,468.0
+1999,29,Tlaxcala,84.0
+1999,30,Veracruz de Ignacio de la Llave,1808.0
+1999,31,YucatÃ¡n,94.0
+1999,32,Zacatecas,7.0
+2000,01,Aguascalientes,108.0
+2000,02,Baja California,2611.0
+2000,03,Baja California Sur,249.0
+2000,04,Campeche,35.0
+2000,05,Coahuila de Zaragoza,184.0
+2000,06,Colima,65.0
+2000,07,Chiapas,21.0
+2000,08,Chihuahua,65.0
+2000,09,Ciudad de MÃ©xico,2707.0
+2000,10,Durango,418.0
+2000,11,Guanajuato,162.0
+2000,12,Guerrero,729.0
+2000,13,Hidalgo,638.0
+2000,14,Jalisco,5299.0
+2000,15,MÃ©xico,2994.0
+2000,16,MichoacÃ¡n de Ocampo,325.0
+2000,17,Morelos,810.0
+2000,18,Nayarit,184.0
+2000,19,Nuevo LeÃ³n,3707.0
+2000,20,Oaxaca,238.0
+2000,21,Puebla,1075.0
+2000,22,QuerÃ©taro,538.0
+2000,23,Quintana Roo,484.0
+2000,24,San Luis PotosÃ­,122.0
+2000,25,Sinaloa,165.0
+2000,26,Sonora,824.0
+2000,27,Tabasco,116.0
+2000,28,Tamaulipas,530.0
+2000,29,Tlaxcala,79.0
+2000,30,Veracruz de Ignacio de la Llave,1966.0
+2000,31,YucatÃ¡n,105.0
+2000,32,Zacatecas,5.0
+2001,01,Aguascalientes,68.0
+2001,02,Baja California,1839.0
+2001,03,Baja California Sur,166.0
+2001,04,Campeche,21.0
+2001,05,Coahuila de Zaragoza,171.0
+2001,06,Colima,76.0
+2001,07,Chiapas,20.0
+2001,08,Chihuahua,62.0
+2001,09,Ciudad de MÃ©xico,2715.0
+2001,10,Durango,348.0
+2001,11,Guanajuato,145.0
+2001,12,Guerrero,538.0
+2001,13,Hidalgo,578.0
+2001,14,Jalisco,5205.0
+2001,15,MÃ©xico,2944.0
+2001,16,MichoacÃ¡n de Ocampo,275.0
+2001,17,Morelos,541.0
+2001,18,Nayarit,117.0
+2001,19,Nuevo LeÃ³n,1399.0
+2001,20,Oaxaca,204.0
+2001,21,Puebla,1026.0
+2001,22,QuerÃ©taro,650.0
+2001,23,Quintana Roo,196.0
+2001,24,San Luis PotosÃ­,145.0
+2001,25,Sinaloa,186.0
+2001,26,Sonora,887.0
+2001,27,Tabasco,112.0
+2001,28,Tamaulipas,384.0
+2001,29,Tlaxcala,98.0
+2001,30,Veracruz de Ignacio de la Llave,1689.0
+2001,31,YucatÃ¡n,101.0
+2001,32,Zacatecas,5.0
+2002,01,Aguascalientes,93.0
+2002,02,Baja California,730.0
+2002,03,Baja California Sur,84.0
+2002,04,Campeche,19.0
+2002,05,Coahuila de Zaragoza,217.0
+2002,06,Colima,55.0
+2002,07,Chiapas,20.0
+2002,09,Ciudad de MÃ©xico,3160.0
+2002,10,Durango,386.0
+2002,11,Guanajuato,83.0
+2002,12,Guerrero,432.0
+2002,13,Hidalgo,622.0
+2002,14,Jalisco,5725.0
+2002,15,MÃ©xico,3019.0
+2002,16,MichoacÃ¡n de Ocampo,225.0
+2002,17,Morelos,511.0
+2002,18,Nayarit,23.0
+2002,19,Nuevo LeÃ³n,1637.0
+2002,20,Oaxaca,262.0
+2002,21,Puebla,1799.0
+2002,22,QuerÃ©taro,725.0
+2002,23,Quintana Roo,124.0
+2002,24,San Luis PotosÃ­,142.0
+2002,25,Sinaloa,183.0
+2002,26,Sonora,681.0
+2002,27,Tabasco,120.0
+2002,28,Tamaulipas,649.0
+2002,29,Tlaxcala,65.0
+2002,30,Veracruz de Ignacio de la Llave,1643.0
+2002,31,YucatÃ¡n,128.0
+2002,32,Zacatecas,58.0
+2003,01,Aguascalientes,63.0
+2003,02,Baja California,1435.0
+2003,03,Baja California Sur,110.0
+2003,04,Campeche,17.0
+2003,05,Coahuila de Zaragoza,219.0
+2003,06,Colima,50.0
+2003,07,Chiapas,27.0
+2003,08,Chihuahua,4.0
+2003,09,Ciudad de MÃ©xico,3118.0
+2003,10,Durango,370.0
+2003,11,Guanajuato,69.0
+2003,12,Guerrero,391.0
+2003,13,Hidalgo,696.0
+2003,14,Jalisco,6660.0
+2003,15,MÃ©xico,2341.0
+2003,16,MichoacÃ¡n de Ocampo,172.0
+2003,17,Morelos,374.0
+2003,18,Nayarit,32.0
+2003,19,Nuevo LeÃ³n,1690.0
+2003,20,Oaxaca,240.0
+2003,21,Puebla,1723.0
+2003,22,QuerÃ©taro,565.0
+2003,23,Quintana Roo,93.0
+2003,24,San Luis PotosÃ­,164.0
+2003,25,Sinaloa,174.0
+2003,26,Sonora,762.0
+2003,27,Tabasco,65.0
+2003,28,Tamaulipas,532.0
+2003,29,Tlaxcala,103.0
+2003,30,Veracruz de Ignacio de la Llave,1605.0
+2003,31,YucatÃ¡n,131.0
+2003,32,Zacatecas,25.0
+2004,01,Aguascalientes,55.0
+2004,02,Baja California,2124.0
+2004,03,Baja California Sur,149.0
+2004,04,Campeche,13.0
+2004,05,Coahuila de Zaragoza,146.0
+2004,06,Colima,42.0
+2004,07,Chiapas,25.0
+2004,08,Chihuahua,41.0
+2004,09,Ciudad de MÃ©xico,2963.0
+2004,10,Durango,376.0
+2004,11,Guanajuato,128.0
+2004,12,Guerrero,427.0
+2004,13,Hidalgo,574.0
+2004,14,Jalisco,6616.0
+2004,15,MÃ©xico,3079.0
+2004,16,MichoacÃ¡n de Ocampo,123.0
+2004,17,Morelos,371.0
+2004,18,Nayarit,114.0
+2004,19,Nuevo LeÃ³n,1158.0
+2004,20,Oaxaca,192.0
+2004,21,Puebla,1208.0
+2004,22,QuerÃ©taro,438.0
+2004,23,Quintana Roo,130.0
+2004,24,San Luis PotosÃ­,164.0
+2004,25,Sinaloa,178.0
+2004,26,Sonora,997.0
+2004,27,Tabasco,101.0
+2004,28,Tamaulipas,509.0
+2004,29,Tlaxcala,88.0
+2004,30,Veracruz de Ignacio de la Llave,1258.0
+2004,31,YucatÃ¡n,107.0
+2004,32,Zacatecas,39.0
+2005,01,Aguascalientes,76.0
+2005,02,Baja California,2347.0
+2005,03,Baja California Sur,118.0
+2005,04,Campeche,19.0
+2005,05,Coahuila de Zaragoza,416.0
+2005,06,Colima,53.0
+2005,07,Chiapas,27.0
+2005,08,Chihuahua,53.0
+2005,09,Ciudad de MÃ©xico,2994.0
+2005,10,Durango,379.0
+2005,11,Guanajuato,104.0
+2005,12,Guerrero,515.0
+2005,13,Hidalgo,448.0
+2005,14,Jalisco,3251.0
+2005,15,MÃ©xico,2903.0
+2005,16,MichoacÃ¡n de Ocampo,129.0
+2005,17,Morelos,591.0
+2005,18,Nayarit,82.0
+2005,19,Nuevo LeÃ³n,1226.0
+2005,20,Oaxaca,166.0
+2005,21,Puebla,1389.0
+2005,22,QuerÃ©taro,463.0
+2005,23,Quintana Roo,103.0
+2005,24,San Luis PotosÃ­,165.0
+2005,25,Sinaloa,185.0
+2005,26,Sonora,1295.0
+2005,27,Tabasco,61.0
+2005,28,Tamaulipas,402.0
+2005,29,Tlaxcala,107.0
+2005,30,Veracruz de Ignacio de la Llave,1087.0
+2005,31,YucatÃ¡n,117.0
+2006,01,Aguascalientes,85.0
+2006,02,Baja California,2628.0
+2006,03,Baja California Sur,138.0
+2006,04,Campeche,16.0
+2006,05,Coahuila de Zaragoza,140.0
+2006,06,Colima,38.0
+2006,07,Chiapas,17.0
+2006,08,Chihuahua,62.0
+2006,09,Ciudad de MÃ©xico,3285.0
+2006,10,Durango,391.0
+2006,11,Guanajuato,130.0
+2006,12,Guerrero,445.0
+2006,13,Hidalgo,401.0
+2006,14,Jalisco,9014.0
+2006,15,MÃ©xico,2383.0
+2006,16,MichoacÃ¡n de Ocampo,138.0
+2006,17,Morelos,470.0
+2006,18,Nayarit,77.0
+2006,19,Nuevo LeÃ³n,1326.0
+2006,20,Oaxaca,96.0
+2006,21,Puebla,1415.0
+2006,22,QuerÃ©taro,488.0
+2006,23,Quintana Roo,147.0
+2006,24,San Luis PotosÃ­,196.0
+2006,25,Sinaloa,166.0
+2006,26,Sonora,923.0
+2006,27,Tabasco,55.0
+2006,28,Tamaulipas,416.0
+2006,29,Tlaxcala,166.0
+2006,30,Veracruz de Ignacio de la Llave,1226.0
+2006,31,YucatÃ¡n,88.0
+2007,01,Aguascalientes,93.0
+2007,02,Baja California,2669.0
+2007,03,Baja California Sur,171.0
+2007,04,Campeche,5.0
+2007,05,Coahuila de Zaragoza,257.0
+2007,06,Colima,60.0
+2007,08,Chihuahua,43.0
+2007,09,Ciudad de MÃ©xico,3677.0
+2007,10,Durango,418.0
+2007,11,Guanajuato,188.0
+2007,12,Guerrero,355.0
+2007,13,Hidalgo,472.0
+2007,14,Jalisco,3914.0
+2007,15,MÃ©xico,3367.0
+2007,16,MichoacÃ¡n de Ocampo,129.0
+2007,17,Morelos,598.0
+2007,18,Nayarit,70.0
+2007,19,Nuevo LeÃ³n,1620.0
+2007,20,Oaxaca,151.0
+2007,21,Puebla,1086.0
+2007,22,QuerÃ©taro,696.0
+2007,23,Quintana Roo,96.0
+2007,24,San Luis PotosÃ­,258.0
+2007,25,Sinaloa,197.0
+2007,26,Sonora,1156.0
+2007,27,Tabasco,72.0
+2007,28,Tamaulipas,314.0
+2007,29,Tlaxcala,208.0
+2007,30,Veracruz de Ignacio de la Llave,1087.0
+2007,31,YucatÃ¡n,79.0
+2007,32,Zacatecas,36.0
+2008,01,Aguascalientes,137.0
+2008,02,Baja California,3860.0
+2008,03,Baja California Sur,163.0
+2008,04,Campeche,14.0
+2008,05,Coahuila de Zaragoza,208.0
+2008,06,Colima,115.0
+2008,08,Chihuahua,45.0
+2008,09,Ciudad de MÃ©xico,3067.0
+2008,10,Durango,322.0
+2008,11,Guanajuato,154.0
+2008,12,Guerrero,368.0
+2008,13,Hidalgo,558.0
+2008,14,Jalisco,1921.0
+2008,15,MÃ©xico,2148.0
+2008,16,MichoacÃ¡n de Ocampo,140.0
+2008,17,Morelos,420.0
+2008,18,Nayarit,95.0
+2008,19,Nuevo LeÃ³n,5474.0
+2008,20,Oaxaca,481.0
+2008,21,Puebla,1560.0
+2008,22,QuerÃ©taro,845.0
+2008,23,Quintana Roo,162.0
+2008,24,San Luis PotosÃ­,197.0
+2008,25,Sinaloa,156.0
+2008,26,Sonora,335.0
+2008,27,Tabasco,70.0
+2008,28,Tamaulipas,300.0
+2008,29,Tlaxcala,201.0
+2008,30,Veracruz de Ignacio de la Llave,1007.0
+2008,31,YucatÃ¡n,46.0
+2008,32,Zacatecas,15.0
+2009,01,Aguascalientes,95.0
+2009,02,Baja California,3220.0
+2009,03,Baja California Sur,190.0
+2009,04,Campeche,7.0
+2009,05,Coahuila de Zaragoza,183.0
+2009,06,Colima,65.0
+2009,08,Chihuahua,40.0
+2009,09,Ciudad de MÃ©xico,1979.0
+2009,10,Durango,366.0
+2009,11,Guanajuato,139.0
+2009,12,Guerrero,443.0
+2009,13,Hidalgo,480.0
+2009,14,Jalisco,2161.0
+2009,15,MÃ©xico,3598.0
+2009,16,MichoacÃ¡n de Ocampo,178.0
+2009,17,Morelos,484.0
+2009,18,Nayarit,99.0
+2009,19,Nuevo LeÃ³n,5653.0
+2009,20,Oaxaca,305.0
+2009,21,Puebla,2227.0
+2009,22,QuerÃ©taro,700.0
+2009,23,Quintana Roo,209.0
+2009,24,San Luis PotosÃ­,241.0
+2009,25,Sinaloa,129.0
+2009,26,Sonora,323.0
+2009,27,Tabasco,190.0
+2009,28,Tamaulipas,244.0
+2009,29,Tlaxcala,174.0
+2009,30,Veracruz de Ignacio de la Llave,823.0
+2009,31,YucatÃ¡n,54.0
+2009,32,Zacatecas,20.0
+2010,01,Aguascalientes,207.0
+2010,02,Baja California,3074.0
+2010,03,Baja California Sur,216.0
+2010,04,Campeche,21.0
+2010,05,Coahuila de Zaragoza,188.0
+2010,06,Colima,72.0
+2010,08,Chihuahua,42.0
+2010,09,Ciudad de MÃ©xico,1926.0
+2010,10,Durango,372.0
+2010,11,Guanajuato,192.0
+2010,12,Guerrero,520.0
+2010,13,Hidalgo,436.0
+2010,14,Jalisco,1457.0
+2010,15,MÃ©xico,3611.0
+2010,16,MichoacÃ¡n de Ocampo,166.0
+2010,17,Morelos,451.0
+2010,19,Nuevo LeÃ³n,4656.0
+2010,20,Oaxaca,404.0
+2010,21,Puebla,1824.0
+2010,22,QuerÃ©taro,815.0
+2010,23,Quintana Roo,160.0
+2010,24,San Luis PotosÃ­,261.0
+2010,25,Sinaloa,124.0
+2010,26,Sonora,730.0
+2010,27,Tabasco,263.0
+2010,28,Tamaulipas,223.0
+2010,29,Tlaxcala,205.0
+2010,30,Veracruz de Ignacio de la Llave,728.0
+2010,31,YucatÃ¡n,44.0
+2010,32,Zacatecas,27.0
+2011,01,Aguascalientes,34.0
+2011,02,Baja California,3272.0
+2011,03,Baja California Sur,94.0
+2011,04,Campeche,18.0
+2011,05,Coahuila de Zaragoza,167.0
+2011,06,Colima,121.0
+2011,08,Chihuahua,27.0
+2011,09,Ciudad de MÃ©xico,1188.0
+2011,10,Durango,373.0
+2011,11,Guanajuato,135.0
+2011,12,Guerrero,391.0
+2011,13,Hidalgo,357.0
+2011,14,Jalisco,3394.0
+2011,15,MÃ©xico,3611.0
+2011,16,MichoacÃ¡n de Ocampo,187.0
+2011,17,Morelos,803.0
+2011,18,Nayarit,298.0
+2011,19,Nuevo LeÃ³n,5807.0
+2011,20,Oaxaca,505.0
+2011,21,Puebla,2205.0
+2011,22,QuerÃ©taro,847.0
+2011,23,Quintana Roo,211.0
+2011,24,San Luis PotosÃ­,239.0
+2011,25,Sinaloa,141.0
+2011,26,Sonora,401.0
+2011,27,Tabasco,120.0
+2011,28,Tamaulipas,269.0
+2011,29,Tlaxcala,148.0
+2011,30,Veracruz de Ignacio de la Llave,649.0
+2011,31,YucatÃ¡n,71.0
+2011,32,Zacatecas,13.0
+2012,01,Aguascalientes,34.0
+2012,02,Baja California,3848.0
+2012,03,Baja California Sur,100.0
+2012,04,Campeche,23.0
+2012,05,Coahuila de Zaragoza,206.0
+2012,06,Colima,95.0
+2012,07,Chiapas,101.0
+2012,08,Chihuahua,41.0
+2012,09,Ciudad de MÃ©xico,1153.0
+2012,10,Durango,256.0
+2012,11,Guanajuato,128.0
+2012,12,Guerrero,281.0
+2012,13,Hidalgo,348.0
+2012,14,Jalisco,2939.0
+2012,15,MÃ©xico,3945.0
+2012,16,MichoacÃ¡n de Ocampo,199.0
+2012,17,Morelos,1001.0
+2012,18,Nayarit,300.0
+2012,19,Nuevo LeÃ³n,6271.0
+2012,20,Oaxaca,1047.0
+2012,21,Puebla,2187.0
+2012,22,QuerÃ©taro,703.0
+2012,23,Quintana Roo,136.0
+2012,24,San Luis PotosÃ­,212.0
+2012,25,Sinaloa,83.0
+2012,26,Sonora,311.0
+2012,27,Tabasco,118.0
+2012,28,Tamaulipas,91.0
+2012,29,Tlaxcala,135.0
+2012,30,Veracruz de Ignacio de la Llave,609.0
+2012,31,YucatÃ¡n,72.0
+2012,32,Zacatecas,27.0
+2013,01,Aguascalientes,44.0
+2013,02,Baja California,3602.0
+2013,03,Baja California Sur,83.0
+2013,04,Campeche,20.0
+2013,05,Coahuila de Zaragoza,187.0
+2013,06,Colima,109.0
+2013,07,Chiapas,129.0
+2013,08,Chihuahua,38.0
+2013,09,Ciudad de MÃ©xico,1284.0
+2013,10,Durango,390.0
+2013,11,Guanajuato,107.0
+2013,12,Guerrero,194.0
+2013,13,Hidalgo,322.0
+2013,14,Jalisco,3370.0
+2013,15,MÃ©xico,3889.0
+2013,16,MichoacÃ¡n de Ocampo,243.0
+2013,17,Morelos,758.0
+2013,18,Nayarit,81.0
+2013,19,Nuevo LeÃ³n,2415.0
+2013,20,Oaxaca,1216.0
+2013,21,Puebla,1991.0
+2013,22,QuerÃ©taro,677.0
+2013,23,Quintana Roo,113.0
+2013,24,San Luis PotosÃ­,194.0
+2013,25,Sinaloa,117.0
+2013,26,Sonora,400.0
+2013,27,Tabasco,138.0
+2013,28,Tamaulipas,66.0
+2013,29,Tlaxcala,93.0
+2013,30,Veracruz de Ignacio de la Llave,581.0
+2013,31,YucatÃ¡n,98.0
+2013,32,Zacatecas,20.0
+2014,01,Aguascalientes,42.0
+2014,02,Baja California,3322.0
+2014,03,Baja California Sur,155.0
+2014,04,Campeche,19.0
+2014,05,Coahuila de Zaragoza,219.0
+2014,06,Colima,128.0
+2014,07,Chiapas,306.0
+2014,08,Chihuahua,62.0
+2014,09,Ciudad de MÃ©xico,1581.0
+2014,10,Durango,411.0
+2014,11,Guanajuato,135.0
+2014,12,Guerrero,258.0
+2014,13,Hidalgo,276.0
+2014,14,Jalisco,3122.0
+2014,15,MÃ©xico,4345.0
+2014,16,MichoacÃ¡n de Ocampo,292.0
+2014,17,Morelos,666.0
+2014,18,Nayarit,108.0
+2014,19,Nuevo LeÃ³n,581.0
+2014,20,Oaxaca,1262.0
+2014,21,Puebla,2101.0
+2014,22,QuerÃ©taro,643.0
+2014,23,Quintana Roo,183.0
+2014,24,San Luis PotosÃ­,156.0
+2014,25,Sinaloa,89.0
+2014,26,Sonora,848.0
+2014,27,Tabasco,126.0
+2014,28,Tamaulipas,79.0
+2014,29,Tlaxcala,124.0
+2014,30,Veracruz de Ignacio de la Llave,480.0
+2014,31,YucatÃ¡n,89.0
+2014,32,Zacatecas,20.0
+2015,01,Aguascalientes,36.0
+2015,02,Baja California,2548.0
+2015,03,Baja California Sur,189.0
+2015,04,Campeche,15.0
+2015,05,Coahuila de Zaragoza,218.0
+2015,06,Colima,95.0
+2015,07,Chiapas,372.0
+2015,08,Chihuahua,46.0
+2015,09,Ciudad de MÃ©xico,1565.0
+2015,10,Durango,387.0
+2015,11,Guanajuato,143.0
+2015,12,Guerrero,262.0
+2015,13,Hidalgo,281.0
+2015,14,Jalisco,2540.0
+2015,15,MÃ©xico,4184.0
+2015,16,MichoacÃ¡n de Ocampo,234.0
+2015,17,Morelos,892.0
+2015,18,Nayarit,84.0
+2015,19,Nuevo LeÃ³n,858.0
+2015,20,Oaxaca,1333.0
+2015,21,Puebla,1697.0
+2015,22,QuerÃ©taro,658.0
+2015,23,Quintana Roo,77.0
+2015,24,San Luis PotosÃ­,146.0
+2015,25,Sinaloa,96.0
+2015,26,Sonora,1017.0
+2015,27,Tabasco,117.0
+2015,28,Tamaulipas,13.0
+2015,29,Tlaxcala,84.0
+2015,30,Veracruz de Ignacio de la Llave,437.0
+2015,31,YucatÃ¡n,136.0
+2015,32,Zacatecas,21.0
