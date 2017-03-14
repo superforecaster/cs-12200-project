@@ -1,10 +1,38 @@
 This is a README of the files attached with this project:
 
-BACKEND:
+SUMMARY
 
+The project has the following components:
+
+Project proposal and presentation
+Data 
+Backend
+Frontend
+
+CONTENT
+
+PROJECT PROPOSAL AND PRESENTATION 
+- CS122-Project_Super Forecasters.docx:
+Project Proposal
+-Final-Presentation_2.pptx
+Final presentation of the project in the winter quarter 2017
+-Super-Forecasters-Pitch2.pptx
+First presentation of the project in the winter quarter 2017
+
+DATA:
+MINI_DB:
+Database composed of 7 tables 
+- raw_csv:
+Where the csv of the Mexican Ministry of Statistics are located
+- process_csv: 
+Where the csv after been modified by 
+-
+-
+-
+-
 DATA COLLECTION
 
-Data CSVﾕs folder: a collection of all the CSVﾕs of data i.e. 25 CSVﾕs. We used a handful of the CSVﾕs for our project i.e. 7 CSVﾕs.
+Data CSVﾃ不 folder: a collection of all the CSVﾃ不 of data i.e. 25 CSVﾃ不. We used a handful of the CSVﾃ不 for our project i.e. 7 CSVﾃ不.
 
 Python files:
 -csv_cleaning_function.py:
@@ -16,7 +44,7 @@ Function that cleans and organizes the data in the crime.csv. The output is a pa
 
 DATA PROCESSING (DATABASES)
 
--create_db_sql: a schema of the all the CSVﾕs/tables (used for predictive stats)
+-create_db_sql: a schema of the all the CSVﾃ不/tables (used for predictive stats)
 -create_db_crimetype: a single schema/table for the crime file (used for descriptive stats)
 
 DATABASES:
