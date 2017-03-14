@@ -1,0 +1,23 @@
+
+There are three main files in the frontend folder:
+
+
+1. Templates folder: a folder for all the Jinja/html templates for Flask
+
+2. Static: a javascript file for charts
+
+3. flask_frontend_crime.py: A python file with the code to run the website
+
+
+
+How to run the front end website using flask?
+
+1. Go to the terminal
+
+2. Go to the front_end folder (cd front_end)
+
+3. run command: export FLASK_APP=flask_frontend_crime.py
+
+4. run command: flask run
+
+5. Voila! Play around with the website :)
