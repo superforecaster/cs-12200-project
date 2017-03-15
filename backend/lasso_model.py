@@ -57,7 +57,7 @@ def front_end(dep,year):
     corr = output[1][4]
     rsquare = output[1][5]
 
-    return df_actual, df_predicted, df_coeffs, mse, corr, rsquare
+    return df_actual, df_predicted, df_coeffs, mse, corr
 
 class lasso:
     '''
