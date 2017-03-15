@@ -1,18 +1,22 @@
 import pandas as pd
 import csv
 
-URL = "/home/student/cs122-win-17-armengol/project/Data/mini_db/"
+path = "/home/student/cs-12200-project/Data/mini_db/"
 
 years = ['1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011']
+
 #Put here the tables that you want to convert
 table_name = ["economic_activity_by_type.csv","strikes.csv","employment.csv","urbanization.csv","justice_system.csv","cars.csv"] 
 
 def data_cleaning_inter(file_name):
     """
-    Getting the multi-index column parameters
+    This function takes the filenames of a csv, and cleans it. 
+
+    Returns:
+        The function returns the multi-index column parameters of a csv file.
     """
 
-    file_name = URL + 'csv_raw/{0}'.format(file_name)
+    file_name = path + 'raw_csv/{0}'.format(file_name)
     years_filtered = []
     indices_second_row = []
     second_column_list = []
@@ -46,13 +50,17 @@ def data_cleaning_inter(file_name):
 
 def data_cleaning_final(years_filtered, second_column_list, start_row,file_name):
     """
-    Creating multi-index dataframes
+    This function takes the multi-index parameters and sorts the dataframes.
+
+    Returns:
+        Cleaned multi-index dataframes sorted by year, state_name and state_key
     """
 
     years_filtered = years_filtered
     second_column_list = second_column_list
     start_row = start_row
-    df = pd.read_csv(URL +"csv_raw/{0}".format(file_name), encoding = "ISO-8859-1", header = start_row + 2, index_col = "Nombre")
+    
+    df = pd.read_csv(path +"raw_csv/{0}".format(file_name), encoding = "ISO-8859-1", header = start_row + 2, index_col = "Nombre")
 
     df.index.rename('State', inplace = True)
 
@@ -61,10 +69,10 @@ def data_cleaning_final(years_filtered, second_column_list, start_row,file_name)
     mux = pd.MultiIndex.from_product([years_filtered, second_column_list])
 
     df.columns = mux
+    
     df = df.stack(0)
 
     df = df.swaplevel(0,1)
-
 
     df = df.sortlevel(2)
 
@@ -72,9 +80,10 @@ def data_cleaning_final(years_filtered, second_column_list, start_row,file_name)
 
     df = df.reorder_levels(['Year', 'State_ID', 'State']) #, columns=['Year', 'State ID', 'State'])
 
+    df.to_csv(path_or_buf = path + "process_csv/{0}".format(file_name), sep = ',')
 
-    df.to_csv(path_or_buf = URL + "csv_process/{0}".format(file_name), sep = ',')
 
+# automatically generating all the cleaned CSV's
 
 for i in table_name:
     years_filtered, second_column_list, start_row, file_name = data_cleaning_inter(i)

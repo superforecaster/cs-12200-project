@@ -2,48 +2,55 @@ import numpy as np
 import pandas as pd
 from sklearn.linear_model import Lasso
 import operator
-from dataframe_lasso import list_dep, llist_lags
+from dataframe_lasso import list_dep, list_lags
 
-URL = "/home/student/cs122-win-17-armengol/project/Data/mini_db/csv_process/"
+path = "/home/student/cs-12200-project/Data/mini_db/process_csv/"
 
-
-df = pd.read_csv(URL + "df_limited.csv", sep='\t')
+df = pd.read_csv(path + "df_limited.csv", sep='\t')
 
 def front_end(dep,year):
     '''
-    Input string of dependent variable name (e.i "homicides") and year. Output actual values, predicted values, 
+    Inputs dependent variable name (e.i "homicides") and year. 
+    Returns actual values, predicted values, 
     covariate coefficients, corralation matrix, mean square error, r-square.
     '''
-    #PARAMETERS : Don't touch or will die
+
     list_variables = list_lags
     betas = list(range(0,50,1))
+    
     #Dependent
     dep = df[dep]
     #Independent
     indep = df[list_variables]
+
     #Robustness check of non-numeric values, NaN and super-long floats
     for i in list_variables:
         indep[i] = pd.to_numeric(indep[i])
     indep = indep.round(decimals=3)
     indep = indep.dropna(axis=1, how='any', thresh=None, subset=None)
+    
     #Run lasso
     model = lasso(dep,indep,betas)
     model.select_model()
     output = model.model
+    
     #Format results for front-end
     #DF Actual values ()
     df_actual = df[["year","state_key","state_name"]]
     df_actual = df_actual.join(dep)
     df_actual = df_actual[df_actual["year"] == year]
+    
     #DF Predicted values
     df_predicted = output[1][1]
     df_predicted = pd.DataFrame(df_predicted)
     df_aux = df[["year","state_key","state_name"]]
     df_predicted = df_predicted.join(df_aux)
     df_predicted = df_predicted[df_predicted["year"] == year]
+    
     #DF Coeffs 
     coeffs = model.lasso_coeffs()
     df_coeffs = pd.DataFrame(coeffs)
+    
     #Efficiency metrics CORR, MSE and Rsquare
     mse = output[1][0]
     corr = output[1][4]
@@ -51,8 +58,12 @@ def front_end(dep,year):
 
     return df_actual, df_predicted, df_coeffs, mse, corr, rsquare
 
-
 class lasso:
+    '''
+    This Class creates different important variables of a Lasso Model i.e.:
+    -predictors i.e. independent variables
+    -betas i.e. coefficients of the independent variables
+    '''
 
     def __init__(self,data,predictors,betas):
         self.data = data
@@ -62,6 +73,7 @@ class lasso:
 
     def select_model(self):
         #Select alphas such that minimize the mean
+        
         #square errors of the predictions
         dic_alphas = {}
         list_print = []
@@ -76,6 +88,7 @@ class lasso:
             dic_alphas[i].append(intercept)
             dic_alphas[i].append(corr)
             dic_alphas[i].append(score)
+        
         #The key is each alpha
         #Get the alpha with the smaller mse (Copy this from Stack Overflow)
         model = min(dic_alphas.items(), key=lambda x: x[1]) 
@@ -92,6 +105,7 @@ class lasso:
         return df.corr()
 
     def lasso(self,alpha):
+        
         #Fit the model
         lassoreg = Lasso(alpha=alpha,normalize=True, max_iter=1e5)
         lassoreg.fit(self.predictors,self.data)
@@ -109,7 +123,8 @@ class lasso:
         for i in range(len(coeffs)):
             if coeffs[i]!= 0:
                 dic_coeffs[predictors[i]] = coeffs[i]
-        #This line was copy from Stack Overflow
+        
+        #This line was inspired from Stack Overflow
         tup_coeffs = sorted(dic_coeffs.items(), key=operator.itemgetter(1))
         return tup_coeffs
 
