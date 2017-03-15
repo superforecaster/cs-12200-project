@@ -10,6 +10,10 @@ URL = "/home/student/cs122-win-17-armengol/project/Data/mini_db/csv_process/"
 df = pd.read_csv(URL + "df_limited.csv", sep='\t')
 
 def front_end(dep,year):
+    '''
+    Input string of dependent variable name (e.i "homicides") and year. Output actual values, predicted values, 
+    covariate coefficients, corralation matrix, mean square error, r-square.
+    '''
     #PARAMETERS : Don't touch or will die
     list_variables = list_lags
     betas = list(range(0,50,1))
