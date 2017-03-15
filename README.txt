@@ -25,41 +25,20 @@ Database composed of 7 tables
 - raw_csv:
 Where the csv of the Mexican Ministry of Statistics are located
 - process_csv: 
-Where the csv after been modified by 
--
--
--
--
-DATA COLLECTION
+Where the csv after been modified by crime_process.py and csv_process.py. Also contain csv created by dataframe_lasso.py
+- Querys
+Contains queries to query mini_db
+- create_db.sql
+Schema to create and upload a sql database with the csv of process_csv (just the csv common with raw_csv).
+- db_layout.txt
+File with the name of the tables and columns. Each column has the spanish name, english name and name used in the database.
+- mini_db
+Sql database (.db) created by create_db.sql
+-frontend_aux
+Auxiliary csv, database and schema for visualization purposes (customized for the frontend API)
 
-Data CSVÕs folder: a collection of all the CSVÕs of data i.e. 25 CSVÕs. We used a handful of the CSVÕs for our project i.e. 7 CSVÕs.
+BACKEND:
 
-Python files:
--csv_cleaning_function.py:
-A dynamic function that takes the name of the CSV, cleans the data, organizes the data, and returns a pandas dataframe along with a cleaned CSV of that dataframe.
-
--crime2_pandas.py
-Function that cleans and organizes the data in the crime.csv. The output is a pandas dataframe that sorts
-
-
-DATA PROCESSING (DATABASES)
-
--create_db_sql: a schema of the all the CSVÕs/tables (used for predictive stats)
--create_db_crimetype: a single schema/table for the crime file (used for descriptive stats)
-
-DATABASES:
-Mini_base.db: a master database (including the crimes)
-
-Crime1.db: a database only of crimes (used for descriptive analytics)
-
-
-DATA ANALYSIS
-
-Lasso Technique
-
-Lasso_model.py:
-
-Dataframe_lasso.py: 
 
 
 
