@@ -1,9 +1,9 @@
 There are interesting insights that have come out from the Descriptive Analysis of the Crime in Mexico:
 
 
-1. Baja California has a consistently highest rate of crime
+1. Baja California, Mexico and Ciuded de Mexico has a consistently highest rate of crime
 
-2. The time period of 1999 to 2001 has a high rate of crime for majority of states in Mexico
+2. The time period of 1999 to 2004 has a high rate of crime for majority of states in Mexico
 
 3. Most common crime types found:
 	—Common Thief

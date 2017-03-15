@@ -3,7 +3,7 @@ INSTRUCTIONS TO EXECUTE THE PRODUCT
 BACKEND
 FRONTEND
 
-BACKEND
+BACKEND (You do not need this if you have the copy of our VM in the disk. It's only for first time users)
 Download repository
 Change URL in scripts of backend
 python3: run crime_process.py
@@ -11,3 +11,13 @@ python3: run csv_process.py
 sqlite3 mini_db < create_db.sql
 python3: run dataframe_lasso.py
 python3: run lasso_model.py
+
+FRONTEND (You need this to run our project even if you have a copy of our VM in the disk):
+How to run the front end website using flask?
+
+1. Go to the terminal
+2. Go to the frontend folder (cd frontend)
+3. run command: export FLASK_APP=flask_frontend_crime.py
+4. run command: flask run
+5. Go to your browser and type the address: 127.0.0.1:5000/
+6. Voila! Play around with the website :)

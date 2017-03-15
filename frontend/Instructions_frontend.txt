@@ -10,14 +10,4 @@ There are three main files in the frontend folder:
 
 
 
-How to run the front end website using flask?
 
-1. Go to the terminal
-
-2. Go to the front_end folder (cd front_end)
-
-3. run command: export FLASK_APP=flask_frontend_crime.py
-
-4. run command: flask run
-
-5. Voila! Play around with the website :)

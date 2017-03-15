@@ -5,6 +5,7 @@ import operator
 from dataframe_lasso import list_dep, list_lags
 
 path = "/home/student/cs-12200-project/Data/mini_db/process_csv/"
+path = "/home/student/cs-12200-project/Data/mini_db/"
 
 df = pd.read_csv(path + "df_limited.csv", sep='\t')
 

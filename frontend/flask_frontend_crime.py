@@ -7,32 +7,38 @@ import seaborn as sns
 import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
-import lasso_model
 
+
+path = "/home/student/cs-12200-project/frontend/"
+path_mini_db = "/home/student/cs-12200-project/Data/mini_db/"
+path_crime_db = "/home/student/cs-12200-project/Data/mini_db/frontend_aux/"
 
 app = Flask(__name__)
-app.jinja_loader = jinja2.FileSystemLoader('templates/')
+app.jinja_loader = jinja2.FileSystemLoader(path + 'templates/')
 
-DATA_DIR = os.path.dirname(__file__)
+#DATA_DIR = os.path.dirname(__file__)
 
 
-'''DATABASE 1'''
-'''
+'''DATABASE 1
+
 This database is mini_base which is the master database. This database is used
 for predictive analytics and correlation of descriptive analytics.
 '''
 
-DATABASE_FILENAME = os.path.join(DATA_DIR, 'mini_base.db')
+DATABASE_FILENAME = path_mini_db + 'mini_db'
+#DATABASE_FILENAME = os.path.join(DATA_DIR, 'mini_base.db')
 connection = sqlite3.connect(DATABASE_FILENAME) 
 cursor_object = connection.cursor()
 
-'''DATABASE 2'''
-'''
+
+'''DATABASE 2
+
 This database is crime1.db, with only one table i.e. crime rate divided by crime types.
 This is used in most of descriptive analytics part.
 '''
 
-DATABASE_FILENAME_2 = os.path.join(DATA_DIR, 'crime1.db')
+DATABASE_FILENAME_2 = path_crime_db + 'crime1.db'
+#DATABASE_FILENAME_2 = os.path.join(DATA_DIR, 'crime1.db')
 connection_2 = sqlite3.connect(DATABASE_FILENAME_2) 
 cursor_object_2 = connection_2.cursor()
 
@@ -168,8 +174,8 @@ def predictive_analytics_options():
 
 '''OUTPUT PAGES'''
 '''
-Functions under this heading are the output given to the user 
-once he makes the desired selection.
+Functions under this heading are the output from the databases given to the user 
+once the user makes the desired selection.
 '''
 
 @app.route('/year_wise_output', methods = ['GET'])
@@ -349,9 +355,13 @@ def sql_corr_matrix_year():
 
     return render_template('corr_matrix.html')
 
-
 @app.route('/predictive_analytics_output', methods = ['GET'])
 def sql_predictive_analytics_output():
+
+    import sys
+    sys.path.insert(0, '/home/student/cs-12200-project/backend/')
+    #import py_file
+    import lasso_model
 
     year = int(request.args['year'])
     crime_type = str(request.args['crime_type'])
