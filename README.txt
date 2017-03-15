@@ -43,9 +43,11 @@ Inputs mini_db/raw_csv/crime.csv and reshape it. Create mini_db/process_csv/crim
 - csv_process.py
 Inputs mini_db/raw_csv/n.csv and reshape them. Where n are the different tables of the predictors (justice_system, education, health, etc.). Create mini_db/process_csv/n.cvs. This is the file that process the predictors (covariates) columns.
 - dataframe_lasso.py
-Inputs mini_db.db creates a connection between sqlite and python3 and makes a pandas dataframe. Constructs changes and lags of the predicted columns and predictors. Drop NaN and entites where there is not complete information. Restricts the dataframe for the years 2008-2011 (where there is complete information).
+Inputs mini_db.db creates a connection between sqlite and python3 and makes a pandas dataframe. Constructs changes and lags of the predicted columns and predictors. Drop NaN and entites where there is not complete information. Restricts the dataframe for the years 2008-2011 (where there is complete information). Outputs df_limited.csv and lists: list_dep (dependent) and list_lag (covariates).
 -lasso_model.py
-Inputs 
+Inputs the outputs of dataframe_lasso. 
+Contruct function frontend that inputs name of the variable to predict (string) and year. Outputs: actual observations, predicted observations, coefficients of the predictiors, mean square error (mse), corr(pred,actual) and r-square of the prediction.
+Contruct a class where the estimations of the predictive model (lasso) are done.
 
 FRONT END
 Templates folder: a folder for all the Jinja/html templates for Flask
