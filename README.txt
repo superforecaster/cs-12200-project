@@ -38,14 +38,16 @@ Sql database (.db) created by create_db.sql
 Auxiliary csv, database and schema for visualization purposes (customized for the frontend API)
 
 BACKEND:
-
-
-
+- crime_process.py
+Inputs mini_db/raw_csv/crime.csv and reshape it. Create mini_db/process_csv/crime.cvs. This is the file that process the predicted columns (crimes).
+- csv_process.py
+Inputs mini_db/raw_csv/n.csv and reshape them. Where n are the different tables of the predictors (justice_system, education, health, etc.). Create mini_db/process_csv/n.cvs. This is the file that process the predictors (covariates) columns.
+- dataframe_lasso.py
+Inputs mini_db.db creates a connection between sqlite and python3 and makes a pandas dataframe. Constructs changes and lags of the predicted columns and predictors. Drop NaN and entites where there is not complete information. Restricts the dataframe for the years 2008-2011 (where there is complete information).
+-lasso_model.py
+Inputs 
 
 FRONT END
-
 Templates folder: a folder for all the Jinja/html templates for Flask
-
 Static: a javascript file for charts
-
 Flask_frontend_crime.py: A python file with the code to run the website
