@@ -1,0 +1,13 @@
+INSTRUCTIONS TO EXECUTE THE PRODUCT
+
+BACKEND
+FRONTEND
+
+BACKEND
+Download repository
+Change URL in scripts of backend
+python3: run crime_process.py
+python3: run csv_process.py
+sqlite3 mini_db < create_db.sql
+python3: run dataframe_lasso.py
+python3: run lasso_model.py
