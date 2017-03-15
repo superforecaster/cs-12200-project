@@ -21,15 +21,3 @@ How to run the front end website using flask?
 4. run command: flask run
 5. Go to your browser and type the address: 127.0.0.1:5000/
 6. Voila! Play around with the website :)
-
-PS: The website is giving some issues when you run the "predictive analytics part"
-and we can't seem to figure that out. In order to run the predictive analytics part,
-youu are encouraged to run it like this:
-
-inside the backend/ repo:
-ipython3
--run lasso_model.py
--frontend("homicides", 2008) as an example. You can select any type of crime
-along with 4 years on which our Lasso predictive model is based i.e. 2008, 2009, 2010, 2011
-
-We will resolve this issue ASAP.
